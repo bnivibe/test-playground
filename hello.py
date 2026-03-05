@@ -1,0 +1,9 @@
+def greet(name: str) -> str:
+    return f"Hello, {name}!"
+
+def add(a: int, b: int) -> int:
+    return a + b
+
+if __name__ == "__main__":
+    print(greet("World"))
+    print(f"3 + 4 = {add(3, 4)}")
